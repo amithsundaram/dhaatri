@@ -1,6 +1,8 @@
 body {
   padding-top: 50px;
+  font-family: 'Mada', sans-serif;
 }
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -11,8 +13,8 @@ body {
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px;
-    font-size: 18px;
+    padding: 10px 15px;
+    font-size: 20px;
     line-height: 20px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -27,4 +29,46 @@ body {
     color: Green;
 }
 
-/* Button customization */
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    text-transform: uppercase;
+}
+
+/* Font awesome customziation*/
+
+.fa{
+  color: #FF3800;
+}
+
+/* Font decoration */
+
+.text-center{
+  text-align: center;
+}
+
+p{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h1{
+  font-weight: 600;
+}
+/* BUTTON */
+
+.btn-default {
+    color: #FF3800;
+    background-color: #FFF;
+    border-color: #ccc;
+    text-transform: uppercase;
+    border-radius: 1px;
+    border-color: #FF3800;
+}
+
+.btn-default:hover {
+    color: #FFF;
+    background-color: #ff3800;
+    border-color: #ccc;
+    text-transform: uppercase;
+    border-radius: 1px;
+}
