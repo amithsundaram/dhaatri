@@ -72,3 +72,35 @@ h1{
     text-transform: uppercase;
     border-radius: 1px;
 }
+
+.btn-danger {
+    color: #FFF;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-radius: 1px;
+    border-color: #FFF;
+}
+
+.btn-danger:hover {
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    text-transform: uppercase;
+    border-radius: 1px;
+}
+
+/* Mislannious */
+
+.verticalspace{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+/* Custom footer */
+
+.footercustom{
+  background-color: #000;
+  color: #FFF;
+  padding-top: 30px;
+  margin-top: 60px;
+}
